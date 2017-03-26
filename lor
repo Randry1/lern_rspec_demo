@@ -1,0 +1,20 @@
+[32m.[0m[31mF[0m
+
+Failures:
+
+  1) Hero can power up
+     [31mFailure/Error: expect(hero.power_up).to eq 1100[0m
+     [31m[0m
+     [31m  expected: 1100[0m
+     [31m       got: 110[0m
+     [31m[0m
+     [31m  (compared using ==)[0m
+     [36m# ./hero_spec.rb:12:in `block (2 levels) in <top (required)>'[0m
+
+Finished in 0.02482 seconds (files took 0.18084 seconds to load)
+[31m2 examples, 1 failure[0m
+
+Failed examples:
+
+[31mrspec ./hero_spec.rb:9[0m [36m# Hero can power up[0m
+
